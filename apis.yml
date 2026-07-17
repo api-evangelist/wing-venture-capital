@@ -1,0 +1,79 @@
+aid: wing-venture-capital
+name: Wing Venture Capital
+description: >-
+  Wing Venture Capital is an early-stage venture firm founded in 2013 by Peter
+  Wagner and Gaurav Garg (both former partners at Sequoia Capital and Accel) and
+  headquartered in Palo Alto, California. Wing invests at the stealth, seed, and
+  Series A stages in companies building the "AI-first" technology stack, and
+  positions itself as a long-term company builder rather than a passive investor.
+  Its thesis spans autonomous applications, AI and machine learning, data
+  platforms and infrastructure, product-led growth (PLG), Web3, and bio x data.
+  Wing raised its fourth flagship fund, Wing Four, a $600M early-stage vehicle,
+  in 2023. Notable outcomes across its portfolio include Snowflake, Cohesity,
+  Gong, Shape Security, and Deepgram, and it operates a Founder Success Platform
+  plus the ET30 (Enterprise Tech 30) research program led by its research team.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://www.wing.vc/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - AI
+  - Data
+  - Infrastructure
+  - Enterprise Software
+  - Product-Led Growth
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://www.wing.vc
+  - type: Portfolio
+    url: https://www.wing.vc/companies
+  - type: Portfolio
+    url: portfolio/wing-venture-capital-portfolio.yml
+  - type: Team
+    url: https://www.wing.vc/people
+  - type: Team
+    url: team/wing-venture-capital-team.yml
+  - type: InvestmentThesis
+    url: https://www.wing.vc/ai-first
+  - type: Blog
+    url: https://www.wing.vc/content
+  - type: News
+    url: https://www.wing.vc/content
+  - type: Jobs
+    url: https://careers.wing.vc/companies
+  - type: Contact
+    url: https://www.wing.vc/contact-us
+  - type: Twitter
+    url: https://twitter.com/wing_vc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wing-venture-capital/
+  - type: Features
+    data:
+      - 'Stage: Stealth, Seed, Series A (early stage)'
+      - 'Sectors: AI, data platforms, autonomous applications, product-led growth (PLG), Web3, bio x data, security'
+      - 'Geography: United States (HQ Palo Alto, CA)'
+      - 'Founded: 2013'
+      - 'Founders: Peter Wagner, Gaurav Garg'
+      - 'HQ: Palo Alto, California'
+      - 'Latest fund: Wing Four, $600M (2023)'
+    sources:
+      - https://www.wing.vc/about
+      - https://www.wing.vc/content/ten-years-good-announcing-wing-four
+      - https://www.wing.vc/people
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Wing Venture Capital
+    email: info@wing.vc
+    url: https://www.wing.vc
