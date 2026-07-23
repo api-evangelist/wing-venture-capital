@@ -3,9 +3,9 @@ method: searched
 source: https://www.wing.vc/companies
 summary:
   portfolio_total: 105
-  in_network: 22
-  api_providers: 13
-  missing: 83
+  in_network: 105
+  api_providers: 25
+  missing: 0
   stubs_created: 0
 companies:
 - name: 1mind
@@ -15,9 +15,10 @@ companies:
   stage: seed
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 1mind
+  slug: 1mind
+  matched_by: domain
 - name: Airops
   url: https://www.airops.com/
   description: AI content and SEO growth platform.
@@ -28,7 +29,7 @@ companies:
   slug: airops
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Algorand
   url: https://www.algorand.com/
   description: Layer-1 proof-of-stake blockchain platform.
@@ -47,39 +48,43 @@ companies:
   stage: series-a
   status: active
   source: https://www.wing.vc/companies
-  slug: almanac
+  slug: almanac-labs
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Ami Labs
   url: https://amilabs.xyz/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ami-labs
+  slug: ami-labs
+  matched_by: domain
 - name: Angle Health
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: angle-health
+  slug: angle-health
+  matched_by: name-slug
 - name: Aporeto
   description: Cloud-native application security (identity-based microsegmentation).
   sector: security
   stage: series-b
   status: acquired
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aporeto
+  slug: aporeto
+  matched_by: name-slug
 - name: Ario
   url: https://www.heyario.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ario
+  slug: ario
+  matched_by: domain
 - name: Around
   url: https://www.around.co/
   description: Lightweight video calling for teams.
@@ -87,91 +92,103 @@ companies:
   stage: seed
   status: acquired
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: around
+  slug: around
+  matched_by: domain
 - name: Arpelos Biosciences
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arpelos-biosciences
+  slug: arpelos-biosciences
+  matched_by: name-slug
 - name: Asimov
   url: https://www.asimov.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: asimov
+  slug: asimov
+  matched_by: name-slug
 - name: Attotude
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: attotude
+  slug: attotude
+  matched_by: name-slug
 - name: Base Ai
   url: http://base.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: base-ai
+  slug: base-ai
+  matched_by: domain
 - name: Bespoke Labs
   url: https://bespokelabs.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bespoke-labs
+  in_network: true
+  is_api_provider: true
+  slug: bespoke-labs
+  matched_by: domain
 - name: Billables Ai
   url: https://billables.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: billables-ai
+  slug: billables-ai
+  matched_by: domain
 - name: Bluerock Security
   url: https://www.bluerock.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluerock-security
+  slug: bluerock-security
+  matched_by: domain
 - name: Boompop
   url: https://boompop.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: boompop
+  slug: boompop
+  matched_by: domain
 - name: Cartography
   url: https://cartography.bio/
   status: unknown
   source: https://www.wing.vc/companies
-  slug: cartography
+  slug: cartography-biosciences
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Cellanome
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cellanome
+  slug: cellanome
+  matched_by: name-slug
 - name: Certik
   url: https://certik.org/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: certik
+  in_network: true
+  is_api_provider: true
+  slug: certik
+  matched_by: name-slug
 - name: Chemify
   url: http://www.chemify.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chemify
+  slug: chemify
+  matched_by: domain
 - name: Classiq
   url: https://www.classiq.io/
   status: unknown
@@ -184,16 +201,18 @@ companies:
   url: https://www.clearlabs.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clear-labs
+  slug: clearlabs
+  matched_by: domain
 - name: Cogniac
   url: https://cogniac.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cogniac
+  slug: cogniac
+  matched_by: domain
 - name: Cohesity
   url: https://www.cohesity.com/
   status: unknown
@@ -206,16 +225,18 @@ companies:
   url: http://cumulusnetworks.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cumulus-networks
+  slug: cumulus-networks
+  matched_by: name-slug
 - name: Cyberhaven
   url: https://www.cyberhaven.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cyberhaven
+  slug: cyberhaven
+  matched_by: domain
 - name: Deepgram
   url: https://www.deepgram.com/
   description: Speech-to-text and voice AI API platform.
@@ -231,30 +252,34 @@ companies:
   url: https://deepsightinc.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deepsight
+  slug: deepsight
+  matched_by: name-slug
 - name: Develop Health
   url: https://www.develophealth.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: develop-health
+  in_network: true
+  is_api_provider: true
+  slug: develop-health
+  matched_by: domain
 - name: Drip Capital
   url: http://www.dripcapital.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: drip-capital
+  slug: drip-capital
+  matched_by: domain
 - name: Dtex Systems
   url: http://www.dtexsystems.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dtex-systems
+  slug: dtex-systems
+  matched_by: name-slug
 - name: Dust
   url: https://dust.tt/
   description: Enterprise AI agent platform.
@@ -270,9 +295,10 @@ companies:
   url: http://espressive.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: espressive
+  slug: espressive
+  matched_by: domain
 - name: Feathery
   url: https://www.feathery.io/
   status: unknown
@@ -296,9 +322,10 @@ companies:
   url: https://glyphic.bio/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glyphic-biotechnologies
+  slug: glyphic-biotechnologies
+  matched_by: domain
 - name: Gong
   url: http://www.gong.io/
   description: Revenue intelligence platform analyzing sales conversations.
@@ -314,16 +341,18 @@ companies:
   url: https://www.goodfire.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goodfire
+  slug: goodfire
+  matched_by: domain
 - name: Gradient
   url: https://gradient.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gradient
+  in_network: true
+  is_api_provider: true
+  slug: gradient
+  matched_by: name-slug
 - name: Gray Swan
   url: https://www.grayswan.ai/
   description: AI safety and security for frontier models.
@@ -331,36 +360,41 @@ companies:
   stage: seed
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gray-swan
+  in_network: true
+  is_api_provider: true
+  slug: gray-swan
+  matched_by: domain
 - name: Gyant
   url: https://gyant.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gyant
+  slug: gyant
+  matched_by: domain
 - name: Habu
   url: https://habu.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: habu
+  slug: habu
+  matched_by: domain
 - name: Headsup
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: headsup
+  slug: headsup
+  matched_by: name-slug
 - name: Human Archive
   url: https://www.humanarchive.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-archive
+  slug: human-archive
+  matched_by: domain
 - name: Human Interest
   url: http://humaninterest.com/
   description: 401(k) retirement benefits platform for SMBs.
@@ -368,30 +402,34 @@ companies:
   stage: growth
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-interest
+  slug: human-interest
+  matched_by: domain
 - name: Hydrolix
   url: https://www.hydrolix.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hydrolix
+  slug: hydrolix
+  matched_by: domain
 - name: Inventive
   url: https://www.madeinventive.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inventive
+  slug: inventive
+  matched_by: name-slug
 - name: Jaris
   url: https://jaris.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jaris
+  slug: jaris
+  matched_by: domain
 - name: Jellyfish
   url: https://jellyfish.co/
   description: Engineering management and software delivery analytics platform.
@@ -399,57 +437,65 @@ companies:
   stage: series-c
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jellyfish
+  slug: jellyfish
+  matched_by: domain
 - name: Juvo
   url: http://juvo.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juvo
+  slug: juvo
+  matched_by: domain
 - name: Link Cell Therapies
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: link-cell-therapies
+  slug: link-cell-therapies
+  matched_by: name-slug
 - name: Lumigo
   url: https://lumigo.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumigo
+  slug: lumigo
+  matched_by: domain
 - name: Matterworks
   url: https://www.matterworksbio.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matterworks
+  slug: matterworks
+  matched_by: name-slug
 - name: Medely
   url: https://medely.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medely
+  slug: medely
+  matched_by: domain
 - name: Mendra
   url: https://mendra.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mendra
+  slug: mendra
+  matched_by: domain
 - name: Mimic
   url: https://mimic.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mimic
+  slug: mimic
+  matched_by: domain
 - name: Moogsoft
   url: https://www.moogsoft.com/dell-technologies-acquires-moogsoft/
   status: unknown
@@ -462,30 +508,34 @@ companies:
   url: https://www.mytos.bio/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mytos
+  slug: mytos
+  matched_by: domain
 - name: Netography
   url: https://netography.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: netography
+  in_network: true
+  is_api_provider: true
+  slug: netography
+  matched_by: domain
 - name: Sesame Labs
   url: https://usenotch.ai/?utm_source=wing&utm_medium=portfolio&utm_campaign=wing_directory
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sesame-labs
+  slug: sesame-labs
+  matched_by: domain
 - name: Noteable
   url: https://noteable.io/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: noteable
+  slug: noteable
+  matched_by: domain
 - name: Obsidian
   url: https://www.obsidiansecurity.com/
   status: unknown
@@ -498,44 +548,50 @@ companies:
   url: https://www.orby.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: orby-ai
+  slug: orby-ai
+  matched_by: domain
 - name: Cloudpost Networks
   url: https://ordr.net/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudpost-networks
+  slug: ordr
+  matched_by: domain
 - name: Outverse
   url: https://www.outverse.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outverse
+  slug: outverse
+  matched_by: domain
 - name: Overt
   url: https://www.overt.bio/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: overt
+  slug: overt
+  matched_by: domain
 - name: Palerra
   url: http://palerra.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: palerra
+  slug: palerra
+  matched_by: domain
 - name: Pepperdata
   url: http://pepperdata.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pepperdata
+  in_network: true
+  is_api_provider: true
+  slug: pepperdata
+  matched_by: domain
 - name: Pinecone
   url: https://www.pinecone.io/
   status: unknown
@@ -548,46 +604,52 @@ companies:
   url: https://www.pixee.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pixee-ai
+  in_network: true
+  is_api_provider: true
+  slug: pixee-ai
+  matched_by: domain
 - name: Platfora
   description: Big data analytics on Hadoop.
   sector: data
   stage: growth
   status: dead
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: platfora
+  slug: platfora
+  matched_by: name-slug
 - name: Recursive Superintelligence
   url: https://www.recursive.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursive-superintelligence
+  slug: recursive
+  matched_by: domain
 - name: Rula
   url: https://www.rula.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rula
+  slug: rula
+  matched_by: domain
 - name: Seer
   url: https://seer.bio/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seer
+  slug: seer
+  matched_by: domain
 - name: Setsail
   url: https://www.setsail.co/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: setsail
+  slug: setsail
+  matched_by: domain
 - name: Sfcompute
   url: https://sfcompute.com/
   status: unknown
@@ -600,30 +662,34 @@ companies:
   url: http://www.shapesecurity.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: shape-security
+  slug: shapesecurity
+  matched_by: domain
 - name: Sima
   url: https://sima.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sima
+  slug: sima
+  matched_by: domain
 - name: Slang Ai
   url: https://www.slang.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: slang-ai
+  slug: slang
+  matched_by: domain
 - name: Slashnext
   url: http://www.slashnext.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: slashnext
+  slug: slashnext
+  matched_by: domain
 - name: Snowflake Computing
   url: https://www.snowflake.com/
   status: unknown
@@ -636,16 +702,18 @@ companies:
   url: https://www.standardpractice.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-practice
+  slug: standard-practice
+  matched_by: domain
 - name: Starkware
   url: https://www.starkware.co/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starkware
+  slug: starkware
+  matched_by: domain
 - name: Stepzen
   url: https://stepzen.com/
   status: unknown
@@ -657,16 +725,18 @@ companies:
 - name: Synthefy
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synthefy
+  slug: synthefy
+  matched_by: name-slug
 - name: Tahoe
   url: https://www.tahoebio.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tahoe
+  slug: tahoe-therapeutics
+  matched_by: domain
 - name: Tango
   url: https://www.tango.us/
   status: unknown
@@ -678,29 +748,33 @@ companies:
 - name: Tensixty Bio
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tensixty-bio
+  slug: tensixty-bio
+  matched_by: name-slug
 - name: Tensor9
   url: https://www.tensor9.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tensor9
+  slug: tensor9
+  matched_by: domain
 - name: Tetra
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tetra
+  slug: tetra
+  matched_by: name-slug
 - name: Theom
   url: https://www.theom.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: theom
+  slug: theom
+  matched_by: domain
 - name: Tigera
   url: https://www.tigera.io/
   description: Kubernetes networking and security (Calico).
@@ -738,16 +812,18 @@ companies:
   url: https://unconv.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unconventional-ai
+  slug: unconv
+  matched_by: domain
 - name: Unnatural Products
   url: https://www.unnaturalproducts.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unnatural-products
+  slug: unnatural-products
+  matched_by: domain
 - name: Upsolver
   url: https://www.upsolver.com/
   description: Cloud data lake pipeline platform.
@@ -755,9 +831,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upsolver
+  slug: upsolver
+  matched_by: domain
 - name: Utila
   url: https://utila.io/
   description: Digital asset operations platform for institutions.
@@ -765,9 +842,10 @@ companies:
   stage: series-a
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: utila
+  in_network: true
+  is_api_provider: true
+  slug: utila
+  matched_by: domain
 - name: Validere
   url: https://validere.com/
   description: Data and emissions intelligence for energy.
@@ -775,18 +853,20 @@ companies:
   stage: series-b
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: validere
+  in_network: true
+  is_api_provider: true
+  slug: validere
+  matched_by: domain
 - name: Valtix
   description: Cloud network security platform.
   sector: security
   stage: series-a
   status: acquired
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: valtix
+  slug: valtix
+  matched_by: name-slug
 - name: Vimaan
   url: https://vimaan.ai/
   description: Computer vision for warehouse inventory.
@@ -794,9 +874,10 @@ companies:
   stage: series-b
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vimaan
+  slug: vimaan
+  matched_by: domain
 - name: Voyage Ai
   url: https://www.voyageai.com/
   description: Embedding and reranking models for retrieval.
@@ -815,13 +896,15 @@ companies:
   stage: series-a
   status: active
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wherobots
+  in_network: true
+  is_api_provider: true
+  slug: wherobots
+  matched_by: domain
 - name: Zipline Ai
   url: https://zipline.ai/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zipline-ai
+  in_network: true
+  is_api_provider: true
+  slug: zipline-ai
+  matched_by: domain
