@@ -14,6 +14,17 @@ description: >-
   plus the ET30 (Enterprise Tech 30) research program led by its research team.
 x-type: venture-capital
 x-category: Venture Capital
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
