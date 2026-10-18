@@ -1,4 +1,32 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: wing-venture-capital
-leads: []
+leads:
+- name: Deepsight
+  url: https://deepsightinc.com/
+  suggested_slug: deepsightinc-com
+  sector: ''
+  source_vc: wing-venture-capital
+  source: https://www.wing.vc/companies
+  stub_created: false
+- name: Dtex Systems
+  url: http://www.dtexsystems.com/
+  suggested_slug: dtex-systems
+  sector: ''
+  source_vc: wing-venture-capital
+  source: https://www.wing.vc/companies
+  stub_created: false
+- name: Inventive
+  url: https://www.madeinventive.com/
+  suggested_slug: madeinventive-com
+  sector: ''
+  source_vc: wing-venture-capital
+  source: https://www.wing.vc/companies
+  stub_created: false
+- name: Matterworks
+  url: https://www.matterworksbio.com/
+  suggested_slug: matterworksbio-com
+  sector: ''
+  source_vc: wing-venture-capital
+  source: https://www.wing.vc/companies
+  stub_created: false

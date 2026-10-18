@@ -3,9 +3,9 @@ method: searched
 source: https://www.wing.vc/companies
 summary:
   portfolio_total: 105
-  in_network: 105
-  api_providers: 25
-  missing: 0
+  in_network: 101
+  api_providers: 29
+  missing: 4
   stubs_created: 0
 companies:
 - name: 1mind
@@ -28,7 +28,7 @@ companies:
   source: https://www.wing.vc/companies
   slug: airops
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Algorand
   url: https://www.algorand.com/
@@ -203,7 +203,7 @@ companies:
   source: https://www.wing.vc/companies
   in_network: true
   is_api_provider: false
-  slug: clearlabs
+  slug: clear-labs
   matched_by: domain
 - name: Cogniac
   url: https://cogniac.ai/
@@ -219,7 +219,7 @@ companies:
   source: https://www.wing.vc/companies
   slug: cohesity
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Cumulus Networks
   url: http://cumulusnetworks.com/
@@ -252,10 +252,10 @@ companies:
   url: https://deepsightinc.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: deepsight
-  matched_by: name-slug
+  x-name-collision: deepsight
+  suggested_slug: deepsightinc-com
 - name: Develop Health
   url: https://www.develophealth.ai/
   status: unknown
@@ -276,10 +276,9 @@ companies:
   url: http://www.dtexsystems.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dtex-systems
-  matched_by: name-slug
+  suggested_slug: dtex-systems
 - name: Dust
   url: https://dust.tt/
   description: Enterprise AI agent platform.
@@ -377,7 +376,7 @@ companies:
   status: unknown
   source: https://www.wing.vc/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: habu
   matched_by: domain
 - name: Headsup
@@ -418,10 +417,10 @@ companies:
   url: https://www.madeinventive.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: inventive
-  matched_by: name-slug
+  x-name-collision: inventive
+  suggested_slug: madeinventive-com
 - name: Jaris
   url: https://jaris.io/
   status: unknown
@@ -468,10 +467,10 @@ companies:
   url: https://www.matterworksbio.com/
   status: unknown
   source: https://www.wing.vc/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: matterworks
-  matched_by: name-slug
+  x-name-collision: matterworks
+  suggested_slug: matterworksbio-com
 - name: Medely
   url: https://medely.com/
   status: unknown
@@ -502,7 +501,7 @@ companies:
   source: https://www.wing.vc/companies
   slug: moogsoft
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Mytos
   url: https://www.mytos.bio/
@@ -664,7 +663,7 @@ companies:
   source: https://www.wing.vc/companies
   in_network: true
   is_api_provider: false
-  slug: shapesecurity
+  slug: shape-security
   matched_by: domain
 - name: Sima
   url: https://sima.ai/
@@ -680,7 +679,7 @@ companies:
   source: https://www.wing.vc/companies
   in_network: true
   is_api_provider: false
-  slug: slang
+  slug: slang-ai
   matched_by: domain
 - name: Slashnext
   url: http://www.slashnext.com/
@@ -782,7 +781,7 @@ companies:
   stage: series-c
   status: active
   source: https://www.wing.vc/companies
-  slug: calico
+  slug: tigera
   in_network: true
   is_api_provider: true
   matched_by: domain
