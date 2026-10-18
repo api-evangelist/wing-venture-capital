@@ -66,7 +66,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: angle-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.anglehealth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Aporeto
   description: Cloud-native application security (identity-based microsegmentation).
   sector: security
@@ -117,7 +119,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: attotude
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.attotude.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Base Ai
   url: http://base.ai/
   status: unknown
@@ -172,7 +176,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cellanome
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cellanome.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Certik
   url: https://certik.org/
   status: unknown
@@ -254,8 +260,8 @@ companies:
   source: https://www.wing.vc/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: deepsight
   suggested_slug: deepsightinc-com
+  x-name-collision: deepsight
 - name: Develop Health
   url: https://www.develophealth.ai/
   status: unknown
@@ -386,6 +392,7 @@ companies:
   is_api_provider: false
   slug: headsup
   matched_by: name-slug
+  x-url-candidate: https://concord.com/labels/heads-up-international/
 - name: Human Archive
   url: https://www.humanarchive.ai/
   status: unknown
@@ -419,8 +426,8 @@ companies:
   source: https://www.wing.vc/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: inventive
   suggested_slug: madeinventive-com
+  x-name-collision: inventive
 - name: Jaris
   url: https://jaris.io/
   status: unknown
@@ -454,7 +461,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: link-cell-therapies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://linkcelltx.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Lumigo
   url: https://lumigo.io/
   status: unknown
@@ -469,8 +478,8 @@ companies:
   source: https://www.wing.vc/companies
   in_network: false
   is_api_provider: false
-  x-name-collision: matterworks
   suggested_slug: matterworksbio-com
+  x-name-collision: matterworks
 - name: Medely
   url: https://medely.com/
   status: unknown
@@ -617,6 +626,7 @@ companies:
   is_api_provider: false
   slug: platfora
   matched_by: name-slug
+  x-url-candidate: https://www.platfora.co/
 - name: Recursive Superintelligence
   url: https://www.recursive.com/
   status: unknown
@@ -727,7 +737,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: synthefy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.synthefy.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tahoe
   url: https://www.tahoebio.ai/
   status: unknown
@@ -750,7 +762,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tensixty-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tensixty.bio
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tensor9
   url: https://www.tensor9.com/
   status: unknown
@@ -766,6 +780,7 @@ companies:
   is_api_provider: false
   slug: tetra
   matched_by: name-slug
+  x-url-candidate: https://www.tetra.com/
 - name: Theom
   url: https://www.theom.ai/
   status: unknown
@@ -866,6 +881,7 @@ companies:
   is_api_provider: false
   slug: valtix
   matched_by: name-slug
+  x-url-candidate: https://valtix.co
 - name: Vimaan
   url: https://vimaan.ai/
   description: Computer vision for warehouse inventory.
